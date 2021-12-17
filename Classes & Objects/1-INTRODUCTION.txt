@@ -1,0 +1,21 @@
+#Structure Of Class
+*******************
+class classname
+{
+    private:
+        datamembers;
+        memberfunctions;
+    public:
+        datamembers;
+        memberfunctions;
+
+}
+
+#Creating Instance Of Class
+***************************
+
+Classname obj_name;
+
+with this obj_name we can access class members(datamembers and memberfunctions)
+*we cannot access private data members and member functions using objects(instances)
+*if member function defination is inside class then it is by default inline function
