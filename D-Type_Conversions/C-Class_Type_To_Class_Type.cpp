@@ -2,40 +2,45 @@
 #include<conio.h>
 using namespace std;
 
-class Hrs_Mins;  //Forward Declaration
-
 class time
 {
     private:
         int duration;
     public:
         time(){ }
-        time(int);
-        operator Hrs_Mins();    
+        time(int); 
+        int get_time();
 };
+
+int time :: get_time()
+{
+    return duration;
+}
 
 time :: time(int dur)
 {
     duration=dur;
 }
-time :: operator Hrs_Mins()
-{
-    Hrs_Mins temp;
-    temp.hrs=(duration/60);
-    temp.mins=(duration%60);
-    return temp;
-}
+
 class Hrs_Mins
-{
+{ 
     public:
         int hrs;
         int mins;
     public:
         void display();
+        Hrs_Mins operator=(time);   
 };
 void Hrs_Mins :: display()
 {
      cout<<"time: "<<hrs<<"hours : "<<mins<<" mins";
+}
+
+Hrs_Mins Hrs_Mins :: operator=(time t1)
+{
+    
+    hrs=(t1.get_time()/60);
+    mins=(t1.get_time()%60);
 }
 int main()
 {
