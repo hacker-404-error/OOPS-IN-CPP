@@ -83,4 +83,5 @@ void Class_Name :: Function_1()
 
 Nesting Of Member Function:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/B-Nesting_Of_MemberFunction.cpp)
 
-## Array within a Class
+----
+## `Array within a Class`
