@@ -29,7 +29,11 @@ class static_data
 };
 
 //this is defination of static dtata members 
+
+// Type and Scope of each Static member variable must be defined outside the class defination 
+
 int static_data :: count;
+
 /*because they are not associated with objects they have their own memory.
 and they are associated with the class , they are also called class variables*/
 
@@ -38,17 +42,22 @@ int main()
     system("cls");
 
     static_data ob1,ob2,ob3;
-    cout<<"\nonject 1: ";
+    cout<<"\nobject 1: ";
     ob1.get(45);
-    cout<<"\nonject 2: ";
-    ob2.get(54);
-    cout<<"\nonject 3: ";    
-    ob3.get(23);
-
-    cout<<endl;
     ob1.count_static();
+    cout<<endl;
+
+    cout<<"\nobject 2: ";
+    ob2.get(54);
     ob2.count_static();
+    cout<<endl;
+
+    cout<<"\nobject 3: ";    
+    ob3.get(23);
     ob3.count_static();
+    cout<<endl;
+
+
 
 
     getch();

@@ -4,7 +4,7 @@
 
 <br>
 <div align="center">
-    <img src="https://media.geeksforgeeks.org/wp-content/uploads/OOPs-Concepts.jpg" alt="Types Of OOPs">
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/OOPs-Concepts.jpg" width=500px alt="Types Of OOPs">
 </div>
 <br>
 
@@ -22,7 +22,8 @@
 | [3- Making an Outside Function Inline](https://github.com/hacker-404-error/OOPS-IN-CPP#making-an-outside-function-inline) | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/B1-Inline_Member_Function.cpp) |
 | [4- Array within a Class](https://github.com/hacker-404-error/OOPS-IN-CPP#array-within-a-class)                           | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/C-Array_Within_Class.cpp)      |
 | [5- Memory Allocation For Objects](https://github.com/hacker-404-error/OOPS-IN-CPP#memory-allocation-for-objects)         |                                                                                                                                                                       |
-| []()                                                                                                                      |                                                                                                                                                                       |
+| [6-Static Data Members]()                                                                                                 | [Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/D-Static_Data_Members.cpp)       |
+|  |
 
 ## `Structure Of Class`
 
@@ -118,6 +119,51 @@ Array within a Class:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foeko
 <br>
 
 ---
+
+## `Static Data Members` `*Imp`
+
+- Static data members are class members that are declared using static keywords.
+- A static member has certain special characteristics. These are:
+  - Only one copy of that member is created for the entire class and is shared by all the objects of that class, no matter how many objects are created.
+  - It is initialized before any object of this class is being created, even before main starts.
+  - It is visible only within the class, but its lifetime is the entire program
+
+```
+class static_data
+{
+    private:
+        static int count;  //Declaraing static data member
+        int num;
+    public:
+        void get(int a)
+        {
+            num=a;
+            cout<<a;
+        }
+        void count_static()
+        {
+            count++;
+            cout<<"\ncount = "<<count;
+        }
+
+};
+
+//this is defination of static dtata members
+
+int static_data :: count;
+
+/*because they are not associated with objects they have their own memory.
+and they are associated with the class , they are also called class variables*/
+
+```
+
+Static Data Member:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/D-Static_Data_Members.cpp)
+
+<br>
+<div align="center">
+    <img src="https://lessons2all.com/images/u2pic5.jpg" width=500px alt="Memory allocation of Static Data Members">
+</div>
+<br>
 
 ---
 
