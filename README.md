@@ -15,14 +15,14 @@
 - A class is like a blueprint for an object.
 - `Object`: An Object is an identifiable entity with some characteristics and behaviour. An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.
 
-|                                                                                            |      |      |      |
-| ------------------------------------------------------------------------------------------ | ---- | ---- | ---- |
-| [Structure Of Class](https://github.com/hacker-404-error/OOPS-IN-CPP#structure-of-class)   | []() | []() | []() |
-| [Nesting Of Member Function]()                                                             | []() | []() | []() |
-| [Making an Outside Function Inline]() | []() | []() | []() |
-| []()                                                                                       | []() | []() | []() |
-| []()                                                                                       | []() | []() | []() |
-| []()                                                                                       | []() | []() | []() |
+|                                                                                          |      |      |      |
+| ---------------------------------------------------------------------------------------- | ---- | ---- | ---- |
+| [Structure Of Class](https://github.com/hacker-404-error/OOPS-IN-CPP#structure-of-class) | []() | []() | []() |
+| [Nesting Of Member Function]()                                                           | []() | []() | []() |
+| [Making an Outside Function Inline]()                                                    | []() | []() | []() |
+| [Array within a Class]()                                                                 | []() | []() | []() |
+| []()                                                                                     | []() | []() | []() |
+| []()                                                                                     | []() | []() | []() |
 
 ## `Structure Of Class`
 
@@ -83,5 +83,22 @@ void Class_Name :: Function_1()
 
 Nesting Of Member Function:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/B-Nesting_Of_MemberFunction.cpp)
 
-----
+---
+
 ## `Array within a Class`
+
+- Arrays can be declared as the members of a class.
+- The arrays can be declared as private, public or protected members of the class.
+- The member functions of the class can perform any operation on this array which is the data member of the class.
+
+```
+class Class_Name
+{
+    private:
+        int a[10];  //array of 10 integers
+    public:
+        int b[100] // array inside the class can be declare in public or private
+};
+```
+
+Array within a Class:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/C-Array_Within_Class.cpp)
