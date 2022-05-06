@@ -15,14 +15,14 @@
 - A class is like a blueprint for an object.
 - `Object`: An Object is an identifiable entity with some characteristics and behaviour. An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.
 
-|                                                                                                                        |      |      |      |
-| ---------------------------------------------------------------------------------------------------------------------- | ---- | ---- | ---- |
-| [Structure Of Class](https://github.com/hacker-404-error/OOPS-IN-CPP#structure-of-class)                               | []() | []() | []() |
-| [Nesting Of Member Function](https://github.com/hacker-404-error/OOPS-IN-CPP#nesting-of-member-function)               | []() | []() | []() |
-| [Making an Outside Function Inline](https://github.com/hacker-404-error/OOPS-IN-CPP#making-an-outside-function-inline) | []() | []() | []() |
-| [Array within a Class](https://github.com/hacker-404-error/OOPS-IN-CPP#array-within-a-class)                           | []() | []() | []() |
-| [Memory Allocation For Objects]()                                                                                      | []() | []() | []() |
-| []()                                                                                                                   | []() | []() | []() |
+|                                                                                                                           |                                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [1- Structure Of Class](https://github.com/hacker-404-error/OOPS-IN-CPP#structure-of-class)                               | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/A-Structure_Of_Class.cpp)      |
+| [2- Nesting Of Member Function](https://github.com/hacker-404-error/OOPS-IN-CPP#nesting-of-member-function)               | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/B1-Inline_Member_Function.cpp) |
+| [3- Making an Outside Function Inline](https://github.com/hacker-404-error/OOPS-IN-CPP#making-an-outside-function-inline) | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/B1-Inline_Member_Function.cpp) |
+| [4- Array within a Class](https://github.com/hacker-404-error/OOPS-IN-CPP#array-within-a-class)                           | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/C-Array_Within_Class.cpp)      |
+| [5- Memory Allocation For Objects](https://github.com/hacker-404-error/OOPS-IN-CPP#memory-allocation-for-objects)         |                                                                                                                                                                       |
+| []()                                                                                                                      |                                                                                                                                                                       |
 
 ## `Structure Of Class`
 
@@ -62,8 +62,6 @@ inlnie void Class_Name :: Function_1()
     ,we need to explicitly apply inline property*/
 }
 ```
-
----
 
 Making an Outside Function Inline:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/B1-Inline_Member_Function.cpp)
 
@@ -132,5 +130,3 @@ Array within a Class:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foeko
 ## 🔗 Feedback
 
 If you have any feedback, please reach out to me at [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pritam-das-7489ab223/)
-
----
