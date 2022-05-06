@@ -22,8 +22,8 @@
 | [3- Making an Outside Function Inline](https://github.com/hacker-404-error/OOPS-IN-CPP#making-an-outside-function-inline) | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/B1-Inline_Member_Function.cpp) |
 | [4- Array within a Class](https://github.com/hacker-404-error/OOPS-IN-CPP#array-within-a-class)                           | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/C-Array_Within_Class.cpp)      |
 | [5- Memory Allocation For Objects](https://github.com/hacker-404-error/OOPS-IN-CPP#memory-allocation-for-objects)         |                                                                                                                                                                       |
-| [6-Static Data Members]()                                                                                                 | [Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/D-Static_Data_Members.cpp)       |
-|  |
+| [6-Static Data Members]()                                                                                                 | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/D-Static_Data_Members.cpp)     |
+|                                                                                                                           |
 
 ## `Structure Of Class`
 
@@ -120,7 +120,7 @@ Array within a Class:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foeko
 
 ---
 
-## `Static Data Members` `*Imp`
+## `Static Data Members` `*Important`
 
 - Static data members are class members that are declared using static keywords.
 - A static member has certain special characteristics. These are:
@@ -157,13 +157,25 @@ and they are associated with the class , they are also called class variables*/
 
 ```
 
-Static Data Member:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/D-Static_Data_Members.cpp)
-
 <br>
 <div align="center">
     <img src="https://lessons2all.com/images/u2pic5.jpg" width=500px alt="Memory allocation of Static Data Members">
 </div>
 <br>
+
+Static Data Member:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/D-Static_Data_Members.cpp)
+
+---
+
+## `Static Member Function` `*Important`
+
+- The static member functions are special functions which is defined using the static keyword.
+- A static member function can only access static data member, other static member functions declared in the same class.
+- If the static member function accesses any non-static data member or non-static member function, it throws an error.
+- We can access the static member function using the class name. : `Class-name :: Static_Function_Name;`
+- A static member function can be called even if no objects of the class exist.
+
+Static Member Function:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/E-Static_Member_Function.cpp)
 
 ---
 
