@@ -15,14 +15,14 @@
 - A class is like a blueprint for an object.
 - `Object`: An Object is an identifiable entity with some characteristics and behaviour. An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.
 
-|                                                                                          |      |      |      |
-| ---------------------------------------------------------------------------------------- | ---- | ---- | ---- |
-| [Structure Of Class](https://github.com/hacker-404-error/OOPS-IN-CPP#structure-of-class) | []() | []() | []() |
-| [Nesting Of Member Function]()                                                           | []() | []() | []() |
-| [Making an Outside Function Inline]()                                                    | []() | []() | []() |
-| [Array within a Class]()                                                                 | []() | []() | []() |
-| []()                                                                                     | []() | []() | []() |
-| []()                                                                                     | []() | []() | []() |
+|                                                                                                                        |      |      |      |
+| ---------------------------------------------------------------------------------------------------------------------- | ---- | ---- | ---- |
+| [Structure Of Class](https://github.com/hacker-404-error/OOPS-IN-CPP#structure-of-class)                               | []() | []() | []() |
+| [Nesting Of Member Function](https://github.com/hacker-404-error/OOPS-IN-CPP#nesting-of-member-function)               | []() | []() | []() |
+| [Making an Outside Function Inline](https://github.com/hacker-404-error/OOPS-IN-CPP#making-an-outside-function-inline) | []() | []() | []() |
+| [Array within a Class](https://github.com/hacker-404-error/OOPS-IN-CPP#array-within-a-class)                           | []() | []() | []() |
+| [Memory Allocation For Objects]()                                                                                      | []() | []() | []() |
+| []()                                                                                                                   | []() | []() | []() |
 
 ## `Structure Of Class`
 
@@ -102,3 +102,35 @@ class Class_Name
 ```
 
 Array within a Class:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/C-Array_Within_Class.cpp)
+
+---
+
+## `Memory Allocation For Objects`
+
+- C++ objects are stored in heap memory (Heap is a resizable, dynamic memory), objects are garbage collected from heap, when not in use, heap can grow and shrink as per the requirements.
+
+##### Internal allocation :
+
+- When objects are allocated, multiple copies of members (data) is created for each object, but methods are allocated only once, in a common memory area and are shared by all the objects.
+
+<br>
+<div align="center">
+    <img src="https://i.ibb.co/T0906rN/memory-location-of-obj.jpg" alt="Memory allocation Objects">
+</div>
+<br>
+
+---
+
+---
+
+### Created And Coded By:
+
+<a href="https://github.com/hacker-404-error"><img src="https://i.ibb.co/yYd2Xjb/In-Shot-20220309-143908060.png" alt="Avatar" style="border-radius: 50%; width:70px"></a>
+
+<a href = "https://github.com/hacker-404-error">Pritam Das</a>
+
+## 🔗 Feedback
+
+If you have any feedback, please reach out to me at [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pritam-das-7489ab223/)
+
+---
