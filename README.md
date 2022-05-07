@@ -24,7 +24,7 @@
 | [5- Memory Allocation For Objects](https://github.com/hacker-404-error/OOPS-IN-CPP#memory-allocation-for-objects)         |                                                                                                                                                                       |
 | [6- Static Data Members]()                                                                                                | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/D-Static_Data_Members.cpp)     |
 | [7- Static Member Function]()                                                                                             | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/E-Static_Member_Function.cpp)  |
-| [8- Array Of Objects]()                                                                                                      | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/F-Arrays_Of_Objects.cpp)       |
+| [8- Array Of Objects]()                                                                                                   | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/F-Arrays_Of_Objects.cpp)       |
 
 ## `Structure Of Class`
 
@@ -224,7 +224,7 @@ Static Member Function:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foe
 class Class_Name
 {
     private:
-    
+
     /*Every Objects will have their own data members in memory */
 
         Data_Type Data_Member_1;
@@ -258,6 +258,66 @@ int main()
 ```
 
 Array Of Objects:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/F-Arrays_Of_Objects.cpp)
+
+---
+
+## `Objects As Fnction Argument`
+
+- We want to use class data type(user defined data type) as a built in data type so what ever the operation a built in data type can posses,we want all those same operation can be done in user defined data type
+- we can pass the objects as function argument as same as built in datatype.
+- Object can be passed by value or by reference
+
+- If passed by value:
+
+  - Then a whole copy of object is passed to the function and whatever
+    the operation we will done will not be be reflected to the real object
+
+- If passed by reference:
+  - Then whatever the operation we will done using this reference is
+    actually reflected to the real object
+
+```
+class Class_Name
+{
+private:
+    /*Every Objects will have their own data members in memory */
+
+    Data_Type Data_Member_1;
+    Data_Type Data_Member_2;
+    Data_Type Data_Member_3;
+
+public:
+    Data_Type Member_Function_1(Class_Name &); // pass by reference
+    Data_Type Member_Function_2(Class_Name); // pass by value
+    Data_Type Member_Function_3();
+};
+Data_Type Member_Function_1(Class_Name &Object_Name_1)
+{
+    /* Onject_Name_1 is taking refrence from Obj*/
+}
+Data_Type Member_Function_2(Class_Name Object_Name_1)
+{
+    /* A new copy of Object_Name_1 is copied to Obj */
+}
+Data_Type Member_Function_3()
+{
+    /* Normal  Function */
+}
+
+int main()
+{
+    Class_Name Object_Name;
+    Class_Name Obj;
+    Object_Name.Member_Function_1(Obj);
+    Object_Name.Member_Function_2(Obj);
+    Object_Name.Member_Function_3();
+}
+
+```
+
+Objects As Fnction Argument
+By Value:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/G-Object_As_Function_Argument.cpp)
+By Reference:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/G1-Pass_By_Reference.cpp)
 
 ---
 
