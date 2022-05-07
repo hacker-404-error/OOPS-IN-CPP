@@ -15,15 +15,16 @@
 - A class is like a blueprint for an object.
 - `Object`: An Object is an identifiable entity with some characteristics and behaviour. An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.
 
-|                                                                                                                           |                                                                                                                                                                       |
+| TOPICS                                                                                                                    | PROGRAMS IN C++                                                                                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [1- Structure Of Class](https://github.com/hacker-404-error/OOPS-IN-CPP#structure-of-class)                               | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/A-Structure_Of_Class.cpp)      |
 | [2- Nesting Of Member Function](https://github.com/hacker-404-error/OOPS-IN-CPP#nesting-of-member-function)               | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/B1-Inline_Member_Function.cpp) |
 | [3- Making an Outside Function Inline](https://github.com/hacker-404-error/OOPS-IN-CPP#making-an-outside-function-inline) | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/B1-Inline_Member_Function.cpp) |
 | [4- Array within a Class](https://github.com/hacker-404-error/OOPS-IN-CPP#array-within-a-class)                           | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/C-Array_Within_Class.cpp)      |
 | [5- Memory Allocation For Objects](https://github.com/hacker-404-error/OOPS-IN-CPP#memory-allocation-for-objects)         |                                                                                                                                                                       |
-| [6-Static Data Members]()                                                                                                 | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/D-Static_Data_Members.cpp)     |
-|                                                                                                                           |
+| [6- Static Data Members]()                                                                                                | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/D-Static_Data_Members.cpp)     |
+| [7- Static Member Function]()                                                                                             | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/E-Static_Member_Function.cpp)  |
+| [8- Array Of Objects]()                                                                                                      | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/F-Arrays_Of_Objects.cpp)       |
 
 ## `Structure Of Class`
 
@@ -175,7 +176,88 @@ Static Data Member:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.
 - We can access the static member function using the class name. : `Class-name :: Static_Function_Name;`
 - A static member function can be called even if no objects of the class exist.
 
+```
+class Class_Name
+{
+    private:
+        static data_type data_Member_1;
+        static data_type data_Member_2;
+        data_type data_Member_3;
+    public:
+        static data_type Member_Function_1();
+        static data_type Member_Function_2();
+        data_type Member_Function();
+};
+
+data_type Class_Name:: Member_Function_1()
+{
+    /*Can only access static member function : */
+
+        Member_Function_1();
+        Member_Function_2();
+
+
+    /*Can only access static data members : */
+
+        data_Member_1;
+        data_Member_2;
+}
+```
+
 Static Member Function:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/E-Static_Member_Function.cpp)
+
+---
+
+## `Array Of Objects`
+
+- The Array of Objects stores objects. An array of a class type is also known as an array of objects.
+- When a class is defined, only the specification for the object is defined; no memory or storage is allocated. To use the data and access functions defined in the class, you need to create objects. `ClassName ObjectName[number of objects];`
+- `Every objects will have their own data members but common member function.`
+
+#### Advantages of Array of Objects:
+
+- The array of objects represent storing multiple objects in a single name.
+- In an array of objects, the data can be accessed randomly by using the index number.
+- Reduce the time and memory by storing the data in a single variable.
+
+```
+class Class_Name
+{
+    private:
+    
+    /*Every Objects will have their own data members in memory */
+
+        Data_Type Data_Member_1;
+        Data_Type Data_Member_2;
+        Data_Type Data_Member_3;
+    public:
+        data_type Member_Function_1()
+        {
+            /*Only one memory allocation of member function for all the objects*/
+        }
+        data_type Member_Function_2()
+        {
+            /*Only one memory allocation of member function for all the objects*/
+        }
+        data_type Member_Function_3()
+        {
+            /*Only one memory allocation of member function for all the objects*/
+        }
+};
+int main()
+{
+    Class_Name Object_Name[No_Of_Objects]; // array of objects
+
+    /*Taking inputs*/
+
+    for(i=0;i<No_Of_Objects;i++)
+    {
+        Object_Name[i].Member_function_1();
+    }
+}
+```
+
+Array Of Objects:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/F-Arrays_Of_Objects.cpp)
 
 ---
 
