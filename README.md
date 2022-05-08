@@ -416,7 +416,7 @@ Friendly Functions:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.
     };
 
   ```
-  - We Can also declare all the member functions of one Class as the friend function of anouther Class.
+- We Can also declare all the member functions of one Class as the friend function of anouther Class.
 
  ```
 Class B
