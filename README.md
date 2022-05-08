@@ -370,7 +370,7 @@ public:
     friend Data_Type Function_3(); // this function is friend of class_name
 };
 
-Data_Type Function_3(Class_Name A, Class_Name B) // as this is not member function , can be defined normally .
+Data_Type Function_3(Class_Name A, Class_Name B) //as this is not member function,can be defined normally.
 {
     /*Usually friend functionhas the object as arguments*/
 
