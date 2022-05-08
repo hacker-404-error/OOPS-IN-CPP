@@ -22,27 +22,11 @@
 | [3- Making an Outside Function Inline](https://github.com/hacker-404-error/OOPS-IN-CPP#making-an-outside-function-inline) | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/B1-Inline_Member_Function.cpp)     |
 | [4- Array within a Class](https://github.com/hacker-404-error/OOPS-IN-CPP#array-within-a-class)                           | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/C-Array_Within_Class.cpp)          |
 | [5- Memory Allocation For Objects](https://github.com/hacker-404-error/OOPS-IN-CPP#memory-allocation-for-objects)         |                                                                                                                                                                           |
-| [6- Static Data Members]()                                                                                                | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/D-Static_Data_Members.cpp)         |
-| [7- Static Member Function]()                                                                                             | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/E-Static_Member_Function.cpp)      |
-| [8- Array Of Objects]()                                                                                                   | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/F-Arrays_Of_Objects.cpp)           |
-| [9- Objects As Fnction Argument]()                                                                                           | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/G-Object_As_Function_Argument.cpp) |
-|                                                                                                                           |                                                                                                                                                                           |
-|                                                                                                                           |                                                                                                                                                                           |
-|                                                                                                                           |                                                                                                                                                                           |
-|                                                                                                                           |                                                                                                                                                                           |
-|                                                                                                                           |                                                                                                                                                                           |
-|                                                                                                                           |                                                                                                                                                                           |
-|                                                                                                                           |                                                                                                                                                                           |
-|                                                                                                                           |                                                                                                                                                                           |
-|                                                                                                                           |                                                                                                                                                                           |
-|                                                                                                                           |                                                                                                                                                                           |
-|                                                                                                                           |                                                                                                                                                                           |
-|                                                                                                                           |                                                                                                                                                                           |
-|                                                                                                                           |                                                                                                                                                                           |
-|                                                                                                                           |                                                                                                                                                                           |
-|                                                                                                                           |                                                                                                                                                                           |
-|                                                                                                                           |                                                                                                                                                                           |
-|                                                                                                                           |                                                                                                                                                                           |
+| [6- Static Data Members](https://github.com/hacker-404-error/OOPS-IN-CPP#static-data-members-important)                   | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/D-Static_Data_Members.cpp)         |
+| [7- Static Member Function](https://github.com/hacker-404-error/OOPS-IN-CPP#static-member-function-important)             | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/E-Static_Member_Function.cpp)      |
+| [8- Array Of Objects](https://github.com/hacker-404-error/OOPS-IN-CPP#array-of-objects)                                   | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/F-Arrays_Of_Objects.cpp)           |
+| [9- Objects As Fnction Argument](https://github.com/hacker-404-error/OOPS-IN-CPP#objects-as-fnction-argument)             | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/G-Object_As_Function_Argument.cpp) |
+| [Friendly Functions](https://github.com/hacker-404-error/OOPS-IN-CPP#friendly-functions)                                  | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/H-Friendly_Function.cpp)           |
 |                                                                                                                           |                                                                                                                                                                           |
 
 ## `Structure Of Class`
@@ -391,8 +375,8 @@ int main()
 
 Friendly Functions:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/H-Friendly_Function.cpp)
 
-- Member Function of one class can be friend function of anouther class. 
-- In such cases They are defined using the scope resolution operator. 
+- Member Function of one class can be friend function of anouther class.
+- In such cases They are defined using the scope resolution operator.
 
   ```
     Class A
@@ -408,7 +392,7 @@ Friendly Functions:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.
     {
         ---
         ---
-        Friend Data_Type A:: Member_Function_1(); 
+        Friend Data_Type A:: Member_Function_1();
 
         //Member function Of Class A is now Friend Function Of B.
         ---
@@ -416,20 +400,22 @@ Friendly Functions:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.
     };
 
   ```
+
 - We Can also declare all the member functions of one Class as the friend function of anouther Class.
 
- ```
+```
 Class B
 {
-    ---
-    ---
-    friend Class A; 
-    
-    // All member function of Class A is now friend to B
-    ---
-    ---
+   ---
+   ---
+   friend Class A;
+
+   // All member function of Class A is now friend to B
+   ---
+   ---
 }
- ```
+```
+
 ---
 
 ### Created And Coded By:
