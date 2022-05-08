@@ -386,7 +386,7 @@ int main()
 }
 
 ```
-Friendly Functions:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)]()
+Friendly Functions:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/H-Friendly_Function.cpp)
 
 ---
 
