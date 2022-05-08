@@ -15,16 +15,35 @@
 - A class is like a blueprint for an object.
 - `Object`: An Object is an identifiable entity with some characteristics and behaviour. An Object is an instance of a Class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.
 
-| TOPICS                                                                                                                    | PROGRAMS IN C++                                                                                                                                                       |
-| ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [1- Structure Of Class](https://github.com/hacker-404-error/OOPS-IN-CPP#structure-of-class)                               | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/A-Structure_Of_Class.cpp)      |
-| [2- Nesting Of Member Function](https://github.com/hacker-404-error/OOPS-IN-CPP#nesting-of-member-function)               | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/B1-Inline_Member_Function.cpp) |
-| [3- Making an Outside Function Inline](https://github.com/hacker-404-error/OOPS-IN-CPP#making-an-outside-function-inline) | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/B1-Inline_Member_Function.cpp) |
-| [4- Array within a Class](https://github.com/hacker-404-error/OOPS-IN-CPP#array-within-a-class)                           | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/C-Array_Within_Class.cpp)      |
-| [5- Memory Allocation For Objects](https://github.com/hacker-404-error/OOPS-IN-CPP#memory-allocation-for-objects)         |                                                                                                                                                                       |
-| [6- Static Data Members]()                                                                                                | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/D-Static_Data_Members.cpp)     |
-| [7- Static Member Function]()                                                                                             | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/E-Static_Member_Function.cpp)  |
-| [8- Array Of Objects]()                                                                                                   | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/F-Arrays_Of_Objects.cpp)       |
+| TOPICS                                                                                                                    | PROGRAMS IN C++                                                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [1- Structure Of Class](https://github.com/hacker-404-error/OOPS-IN-CPP#structure-of-class)                               | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/A-Structure_Of_Class.cpp)          |
+| [2- Nesting Of Member Function](https://github.com/hacker-404-error/OOPS-IN-CPP#nesting-of-member-function)               | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/B1-Inline_Member_Function.cpp)     |
+| [3- Making an Outside Function Inline](https://github.com/hacker-404-error/OOPS-IN-CPP#making-an-outside-function-inline) | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/B1-Inline_Member_Function.cpp)     |
+| [4- Array within a Class](https://github.com/hacker-404-error/OOPS-IN-CPP#array-within-a-class)                           | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/C-Array_Within_Class.cpp)          |
+| [5- Memory Allocation For Objects](https://github.com/hacker-404-error/OOPS-IN-CPP#memory-allocation-for-objects)         |                                                                                                                                                                           |
+| [6- Static Data Members]()                                                                                                | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/D-Static_Data_Members.cpp)         |
+| [7- Static Member Function]()                                                                                             | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/E-Static_Member_Function.cpp)      |
+| [8- Array Of Objects]()                                                                                                   | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/F-Arrays_Of_Objects.cpp)           |
+| [Objects As Fnction Argument]()                                                                                           | [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/G-Object_As_Function_Argument.cpp) |
+|                                                                                                                           |                                                                                                                                                                           |
+|                                                                                                                           |                                                                                                                                                                           |
+|                                                                                                                           |                                                                                                                                                                           |
+|                                                                                                                           |                                                                                                                                                                           |
+|                                                                                                                           |                                                                                                                                                                           |
+|                                                                                                                           |                                                                                                                                                                           |
+|                                                                                                                           |                                                                                                                                                                           |
+|                                                                                                                           |                                                                                                                                                                           |
+|                                                                                                                           |                                                                                                                                                                           |
+|                                                                                                                           |                                                                                                                                                                           |
+|                                                                                                                           |                                                                                                                                                                           |
+|                                                                                                                           |                                                                                                                                                                           |
+|                                                                                                                           |                                                                                                                                                                           |
+|                                                                                                                           |                                                                                                                                                                           |
+|                                                                                                                           |                                                                                                                                                                           |
+|                                                                                                                           |                                                                                                                                                                           |
+|                                                                                                                           |                                                                                                                                                                           |
+|                                                                                                                           |                                                                                                                                                                           |
 
 ## `Structure Of Class`
 
@@ -202,6 +221,10 @@ data_type Class_Name:: Member_Function_1()
         data_Member_1;
         data_Member_2;
 }
+int main()
+{
+    Class_Name :: Member_function_1(); // can be called using class name instead object name;
+}
 ```
 
 Static Member Function:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/E-Static_Member_Function.cpp)
@@ -318,6 +341,52 @@ int main()
 Objects As Fnction Argument
 By Value:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/G-Object_As_Function_Argument.cpp)
 By Reference:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/G1-Pass_By_Reference.cpp)
+
+---
+
+## `Friendly Functions`
+A friend function of a class is defined outside that class' scope but it has the right to access all private and protected members of the class. Even though the prototypes for friend functions appear in the class definition, friends are not member functions.
+- The function is not in the scope of the class to which it has been declared as a friend.
+- It cannot be called using the object as it is not in the scope of that class.
+- It can be invoked like a normal function without using the object.
+- It cannot access the member names directly and has to use an object name and dot membership operator with the member name.
+- It can be declared either in the private or the public part.
+
+```
+class Class_Name
+{
+private:
+    /*Every Objects will have their own data members in memory */
+
+    Data_Type Data_Member_1;
+    Data_Type Data_Member_2;
+    Data_Type Data_Member_3;
+
+public:
+    Data_Type Member_Function_1(); 
+    Data_Type Member_Function_2(); 
+    friend Data_Type Function_3(); // this function is friend of class_name
+};
+
+Data_Type Function_3(Class_Name A, Class_Name B) // as this is not member function , can be defined normally .
+{
+    /*Usually friend functionhas the object as arguments*/
+
+    A.Data_Member_1; 
+
+    /* we can access the Private (Value) part in Friend Function with the help of Objects. 
+}
+
+int main()
+{
+    Class_Name Object_Name;
+    Class_Name Obj;
+
+    Function_3(Object_name,Obj); // As this is not member function can be called like normal function
+}
+
+```
+Friendly Functions:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)]()
 
 ---
 
