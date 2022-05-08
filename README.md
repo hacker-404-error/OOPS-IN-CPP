@@ -345,7 +345,9 @@ By Reference:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" w
 ---
 
 ## `Friendly Functions`
+
 A friend function of a class is defined outside that class' scope but it has the right to access all private and protected members of the class. Even though the prototypes for friend functions appear in the class definition, friends are not member functions.
+
 - The function is not in the scope of the class to which it has been declared as a friend.
 - It cannot be called using the object as it is not in the scope of that class.
 - It can be invoked like a normal function without using the object.
@@ -363,8 +365,8 @@ private:
     Data_Type Data_Member_3;
 
 public:
-    Data_Type Member_Function_1(); 
-    Data_Type Member_Function_2(); 
+    Data_Type Member_Function_1();
+    Data_Type Member_Function_2();
     friend Data_Type Function_3(); // this function is friend of class_name
 };
 
@@ -372,9 +374,9 @@ Data_Type Function_3(Class_Name A, Class_Name B) // as this is not member functi
 {
     /*Usually friend functionhas the object as arguments*/
 
-    A.Data_Member_1; 
+    A.Data_Member_1;
 
-    /* we can access the Private (Value) part in Friend Function with the help of Objects. 
+    /* we can access the Private (Value) part in Friend Function with the help of Objects.
 }
 
 int main()
@@ -386,8 +388,48 @@ int main()
 }
 
 ```
+
 Friendly Functions:<img src="https://c.tenor.com/CsqnkjKnojgAAAAi/dm4uz3-foekoe.gif" width=50px alt="pointing hand"> [![Open In CPP](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](A-Classes%20&%20Objects/H-Friendly_Function.cpp)
 
+- Member Function of one class can be friend function of anouther class. 
+- In such cases They are defined using the scope resolution operator. 
+
+  ```
+    Class A
+    {
+        ---
+        ---
+        Data_Type Member_Function_1();
+        ---
+        ---
+    };
+
+    Class B
+    {
+        ---
+        ---
+        Friend Data_Type A:: Member_Function_1(); 
+
+        //Member function Of Class A is now Friend Function Of B.
+        ---
+        ---
+    };
+
+  ```
+  - We Can also declare all the member functions of one Class as the friend function of anouther Class.
+
+ ```
+Class B
+{
+    ---
+    ---
+    friend Class A; 
+    
+    // All member function of Class A is now friend to B
+    ---
+    ---
+}
+ ```
 ---
 
 ### Created And Coded By:
